@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/*general
+----------------------------------------------- */
+.warp{width:960px;margin:0 auto;}
+a{color:#555;text-decoration:none;}
+
+/* header
+----------------------------------------------- */
+.header{ background:#000; height:45px ;}
+.header h1 {width:130px; padding-top:5px;}
+.header h1 a {display:block;text-indent:-9999px; height:35px; background:url(../images/logo.jpg) no-repeat 0 0;}
+
+.header ul.menu{width:600px; overflow:hidden;}
+.header ul.menu li {float: left;line-height: 45px;}
+.header ul.menu li a { line-height: 45px; display:block; padding:0 10px; font-size:12px;  color:#fff;}
+.header ul.menu li a:hover { color:#f00; background:#222;}
+.footer_bg{background:#a4a085;}
+.footer {line-height: 49px; height:49px; color: #fff; text-align:center; font-size:12px;padding:10px 0 0px 0}
+
+/* main
+----------------------------------------------- */
+/*全局布置*/
+body{ font-family:"微软雅黑",Arial, Arial, Helvetica, sans-serif;text-align:center;margin:0 auto;padding:0;font-size:12px; color:#5d5d5d;background:#fffdec}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote{padding:0; margin:0; color:#5d5d5d; font-family:"微软雅黑",Arial, Arial, Helvetica, sans-serif;}
+html{ color:#5d5d5d;-webkit-text-size-adjust:none;}
+div{ margin:0 auto;line-height:12px;font-family:"微软雅黑",Arial, Arial, Helvetica, sans-serif; }
+li{list-style-type:none;}
+img{border:0px;}
+textarea {resize: none;}
+*:focus {outline: none;}/**解决文本输入框在谷歌浏览器下面出现边框问题**/
+input{font-family:"微软雅黑",Arial, Arial, Helvetica, sans-serif;}
+/*清除浮动*/
+
+.cf{zoom:1;}
+.cf:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+
+ a { text-decoration:none; color:#5d5d5d;font-family:"宋体",Verdana, Arial, Helvetica, sans-serif;}
+ 
+ /*---链接颜色[定义规则，小写a加颜色名称]---*/
+.aRed,a.aRed:link,a.aRed:visited{ color:#9e0000; }
+.aRed1,a.aRed1:link,a.aRed1:visited{color:#bb0000}
+.aOrange,a.aOrange:link,a.aOrange:visited{color:#eb5415; }
+.aOranges,a.aOranges:link,a.aOranges:visited{color:#ee9a0c; }
+.aBlue,a.aBlue:link,a.aBlue:visited{color:#2ba7e2}
+.aWhite,a.aWhite:link,a.aWhite:visited{color:#fff}
+.aBlack,a.aBlack:link,a.aBlack:visited{color:#000;}
+.aGray,a.aGray:link,a.aGray:visited{color:#0195bb;}
+.aGreen,a.aGreen:link,a.aGreen:visited{color:#618f50;}
+.weight{font-weight:bold;}
+.font_yh{font-family:"微软雅黑","宋体",Verdana, Arial, Helvetica, sans-serif;}
+a.hang:link{color:#666666}         /* 未被访问的链接 色 */
+a.hang:visited{color:#666666}     /* 已被访问过的链接 色 */
+a.hang:hover{color:#f89548}		/* 鼠标悬浮在上的链接 色 */
+a.hang:active{color:#f89548}	   /* 鼠标点中激活链接 色 */
+
+.logding{ width:1000px;height:680px; position:relative; overflow:hidden;}
+.logding .bg{width:1000px;height:680px; position:relative;background:url(../images/index.jpg) no-repeat;}
+.logding a.go{ position:absolute; background:url(../images/but.jpg) no-repeat;width:166px; height:38px; display:block;top:485px;left:403px;}
+.content{width:1000px;background:url(../images/bg.jpg) no-repeat;height:680px; position: relative}
+.content .left{float:left;width:231px;padding-top:151px; position: absolute;left:0px;top:-2000px;}
+.content .left li{position:relative; cursor:pointer;margin-top:20px;width:231px;height:50px;}
+.content .left li h3{ position:absolute; font-size:24px;color:#979481; text-align:center;width:201px; line-height:20px; z-index:101;padding-right:30px}
+.content .left li h3 p{ font-size:14px;margin:5px 0 0 0}
+.content .left li.open .bg{ background:url(../images/open.png) no-repeat;width:263px; height:117px; position:absolute;top:-63px; z-index:100;left:0px;}
+.content .left li.open h3{color:#f95858}
+.content .right{float:right;width:769px; overflow:hidden;height:680px; position: absolute;right:0px;}
+.con0, .con1,.con2,.con3,.con4,.con5,.con6{position:relative; overflow:hidden;*zoom:1; height:680px;}
+
+.downBtn{position:absolute; bottom:0; left:50%; margin-left:-28px; width:59px; height:59px; z-index:99}
+.downBtn a{display:block; width:56px; height:54px; background:url(../images/bottom.png) no-repeat; text-indent:-999px;}
+.startBtn a{ background:url(../images/bottom.png) no-repeat; }
+.upBtn{position:absolute; top:0; left:50%; margin-left:-28px; width:59px; height:59px; z-index:99}
+.upBtn a{display:block; width:59px; height:59px; background:url(../images/top.png) no-repeat; text-indent:-999px;}
+
